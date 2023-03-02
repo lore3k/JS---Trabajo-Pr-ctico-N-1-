@@ -4,7 +4,7 @@
 
 let a = parseInt(prompt("Ingresa un número"));
 
-if((a%2)==0){
+if((a%2)===0){
     document.write("Es divisible en 2")
 }
 else{
