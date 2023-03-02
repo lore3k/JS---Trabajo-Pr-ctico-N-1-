@@ -11,11 +11,11 @@ if(a<b & b<c){
     document.write("El mayor es "+c);
 }
 else{
-    if(a>b & b>c){
+    if(a>b && b>c){
         document.write("El mayor es "+a);
     }
     else{
-        if(b>a & a>c){
+        if(b>a && a>c){
             document.write("El mayor es "+b);
         }
         else{
