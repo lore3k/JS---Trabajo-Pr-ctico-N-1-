@@ -10,5 +10,10 @@ if(a<b){
     document.write("El mayor es "+b);
 }
 else{
-    document.write("El mayor es "+a);
+    if(a>b){
+        document.write("El mayor es "+a);
+    }
+    else{
+        document.write("Son iguales");
+    }
 }
